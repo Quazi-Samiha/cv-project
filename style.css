@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e2bebe;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-------------------------------------------Header Start--------------------------------------------------- */
+.container{
+    max-width: 1000px;
+    background-color: #cfc394;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-photo{
+    width: 100px;
+    height: 120px;
+    border: 2px black solid;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #db0404;
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a{
+    color: #db0404;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.header-contact a:hover{
+    text-decoration: underline;
+    color: #7979c0;
+}
+
+hr{
+    border: 3px #fa2424 solid;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*-------------------------------------------Header End--------------------------------------------------- */
+
+.div-clear{
+    clear: both;
+}
+
+/*----------------------------------------Main Section Start--------------------------------------------*/
+.content{
+    color: #db0404;
+    font-weight: bold;
+}
+
+.left-div{
+    width: 30%;
+    float : left;
+}
+
+.right-div{
+    width: 70%;
+    float : left;
+}
+
+.edu-left-div{
+    width : 50%;
+    float : left;
+}
+
+.edu-left-div a{
+    color: #db0404;
+}
+
+.edu-right-div{
+    width : 50%;
+    float: right;
+}
+
+.edu-right-div a{
+    color: #db0404;
+}
+/*----------------------------------------Main Section End----------------------------------------------*/
+
+.common-hr{
+    border: 1px #fa2424 solid;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/*-----------------------------------------footer Start----------------------------------------------------*/
+.bottom-container{
+    color: #fa2424;
+    background-color: black;
+    text-align: center;
+    padding: 12px;
+}
+
+.bottom-container a{
+    text-decoration: none;
+    margin: 15px;
+}
+
+.bottom-container a:hover{
+    text-decoration: underline;
+}
+
+.bottom-container p{
+    margin-top: 10px;
+}
+
+/*-----------------------------------------footer End----------------------------------------------------*/
